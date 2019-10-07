@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_host_default_height">48dp</dimen>
+    <dimen name="paddingTop">5dp</dimen>
+    <dimen name="paddingBottom">5dp</dimen>
+    <dimen name="paddingRight">5dp</dimen>
+    <dimen name="paddingLeft">5dp</dimen>
+</resources>

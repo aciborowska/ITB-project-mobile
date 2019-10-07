@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">PinIt!</string>
+
+    <string name="user_properties">properties</string>
+    <string name="facebook_app_id">903578906425395</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="title_activity_login">Logowanie</string>
+    <string name="title_activity_register">Rejestracja</string>
+    <string name="title_map_fragment">Wydarzenia</string>
+    <string name="title_add_event_fragment">Nowe wydarzenie</string>
+    <string name="welcome">Chcesz wiedzieć co się dzieje w Twojej okolicy?\n Zaloguj się i bądź na bieżąco!</string>
+
+
+    <string name="events">Wydarzenia</string>
+    <string name="my_account">Moje Konto</string>
+    <string name="groups">Grupy</string>
+    <string name="my_events">Moje wydarzenia</string>
+    <string name="logout">Wyloguj</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="alternative">lub</string>
+    <string name="username">username</string>
+    <string name="date">data</string>
+    <string name="comment">Komentarz</string>
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="choose_photo">Wybierz zdjęcie</string>
+    <string name="add_comment">Dodaj komentarz</string>
+    <string name="photoBytes">Zdjęcie</string>
+    <string name="add">Dodaj</string>
+
+    <string name="email">Email</string>
+    <string name="password">Hasło</string>
+    <string name="login">ZALOGUJ</string>
+    <string name="register">ZAREJESTRUJ</string>
+    <string name="login_">Login</string>
+    <string name="repeat_password">Powtórz hasło</string>
+    <string name="wrong_email_format">Nieprawidłowy format email</string>
+    <string name="wrong_password_format">Hasło powinno mieć min. 8 znaków</string>
+    <string name="diffrent_passwords">Podane hasła są różne</string>
+    <string name="field_cannot_be_empty">Pole nie może być puste</string>
+
+
+    <string name="event_name">Nazwa wydarzenia</string>
+    <string name="description">Opis</string>
+    <string name="type">Typ</string>
+    <string name="group">Grupa</string>
+    <string name="time_start">Start</string>
+    <string name="change">Zmień</string>
+    <string name="address">Adres</string>
+
+    <string name="no_group">Dostępne dla wszystkich</string>
+    <string name="no_description">Brak opisu</string>
+    <string name="refresh">Odśwież</string>
+
+    <string name="service_not_available">Usługa Geocoder niedostępna</string>
+    <string name="invalid_lat_long_used">Nieprawidłowy format współrzednych geograficznych</string>
+    <string name="no_address_found">Nie znaleziono adresu dla danych współrzędnych</string>
+    <string name="address_found">Znaleziono adres dla zadanych współrzędnych</string>
+    <string name="title_activity_add_comment">Dodaj komentarz</string>
+    <string name="title_activity_comments">Komentarze</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Anuluj</string>
+
+    <string name="change_password">Zmień hasło</string>
+    <string name="comments_amount">Liczba komentarzy</string>
+    <string name="positivies_amount">Pozytywne oceny</string>
+    <string name="negatives_amount">Negatywne oceny</string>
+    <string name="modify">Modyfikuj</string>
+
+    <string name="firstName">Imię</string>
+    <string name="lastName">Nazwisko</string>
+    <string name="phoneNumber">Nr telefonu</string>
+    <string name="nick">Nazwa użytkownika</string>
+    <string name="save">Zapisz</string>
+    <string name="old_password">Stare hasło</string>
+    <string name="new_password">Nowe hasło</string>
+
+    <string name="signin_to_group">Zapisz do grupy</string>
+    <string name="create_group">Stwórz nową grupę</string>
+    <string name="write_group_name">Podaj nazwę grupy</string>
+    <string name="leave_group">Wypisz się z grupy</string>
+    <string name="do_you_really_want_to_leave_group">Czy na pewno chcesz się wypisać z grupy?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+
+    <string name="change_group_name">Zmień nazwę grupy</string>
+    <string name="write_new_group_name">Podaj nową nazwę</string>
+    <string name="no_new_entries">Brak nowych zgłoszeń do grupy :(</string>
+    <string name="no_group_events">Brak wydarzeń dla grupy :(\n Dodaj nowe!</string>
+    <string name="cannot_load_picture">Nie można załadować zdjęcia</string>
+    <string name="cannot_access_SD_card">Brak dostępu do karty SD. Nie można zapisać zdjęcia.</string>
+    <string name="events_for">Wydarzenia dla </string>
+    <string name="choose_group_event_location">Wybierz lokalizację dla nowego wydarzenia</string>
+
+    <string name="title_activity_group_admin">Administrator</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="public_event">Wydarzenie publiczne</string>
+    <string name="error_service_unavalible">Usługa niedostepna.</string>
+    <string name="error_no_locations_found">Brak lokalizacji dla podanych parametrów</string>
+    <string name="search_location">Wyszukaj lokalizację</string>
+    <string name="connection_error">Błąd połączenia.</string>
+    <string name="user_alredy_exist">Użytkownik o podanym emailu już istnieje</string>
+    <string name="user_login">Zalogowano</string>
+    <string name="incorrect_email_passwd">Nieprawidłowy email/hasło</string>
+    <string name="logout_failure">Nie udało się wylogować</string>
+    <string name="downloading">Pobieranie</string>
+    <string name="downloading_events">Pobieranie wydarzeń</string>
+    <string name="logout_in_progress">Trwa wylogowywanie</string>
+    <string name="attention">Uwaga</string>
+    <string name="event_already_marked">Wydarzenie zostało już ocenione</string>
+    <string name="created_new_group">Stwrzono nową grupę</string>
+    <string name="group_with_name_already_exist">Grupa o podanej nazwie już istnieje</string>
+    <string name="submissionToGroupAdded">Zgłoszenie do grupy zostało wysłane</string>
+    <string name="user_signout_from_group">Zostałeś wypisany z grupy</string>
+    <string name="group_with_given_name_does_not_exist">Grupa o podanej nazwie nie istnieje</string>
+    <string name="user_alredy_in_group">Należysz do tej grupy lub oczekujesz na przyjęcie</string>
+    <string name="private_event">Wydarzenie prywatne</string>
+    <string name="donloading_comments">Pobieranie komentarzy</string>
+    <string name="changes_saved">Zapisano zmiany</string>
+    <string name="user_data_saved">Zapisano</string>
+    <string name="get_event_for_map_view">Pobierz wydarzenia dla akutalnego widoku mapy</string>
+    <string name="event_added">Dodano wydarzenie</string>
+    <string name="user_declined">Użytkownik odrzucony</string>
+    <string name="user_accepted">Użytkownik przyjęty</string>
+    <string name="password_changed">Hasło zostało zmienione</string>
+    <string name="seesion_end_login_again">Sesja wygasła. Zaloguj się ponownie.</string>
+    <string name="wrong_password_provided">Podano błędne hasło</string>
+    <string name="comment_send">Komentarz wysłany</string>
+    <string name="token_expired">Token stracił ważność. Zaloguj się ponownie.</string>
+    <string name="photo_change_error">Wystąpił problem ze zmianą zdjęcia. Spóbuj ponownie później.</string>
+    <string name="user_logout">Wylogowano</string>
+</resources>

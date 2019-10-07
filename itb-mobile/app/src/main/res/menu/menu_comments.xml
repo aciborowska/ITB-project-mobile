@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pinit.pinitmobile.ui.CommentsActivity">
+    <item android:id="@+id/action_add_comment" android:title="@string/add_comment"
+        android:icon="@drawable/ic_add_white_48dp"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>

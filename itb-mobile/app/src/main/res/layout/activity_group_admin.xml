@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pinit.pinitmobile.ui.GroupAdminActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/group_admin">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar"
+        android:layout_gravity="center_horizontal"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/users_list"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/no_new_entries"
+        android:id="@+id/info_no_entries"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic" />
+
+</LinearLayout>

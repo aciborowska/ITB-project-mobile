@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="PinItTheme" parent="@style/_PinItTheme"/>
+
+    <style name="_PinItTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:editTextStyle">@style/EditTextPinItTheme</item>
+        <item name="android:textColorHighlight">#998bc34a</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewPinItTheme</item>
+        <item name="android:checkboxStyle">@style/CheckBoxPinItTheme</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonPinItTheme</item>
+        <item name="android:buttonStyle">@style/ButtonPinItTheme</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonPinItTheme</item>
+        <item name="android:spinnerStyle">@style/SpinnerPinItTheme</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemPinItTheme</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarPinItTheme</item>
+        <item name="android:seekBarStyle">@style/SeekBarPinItTheme</item>
+        <item name="android:ratingBarStyle">@style/RatingBarPinItTheme</item>
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigPinItTheme</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallPinItTheme</item>
+        <item name="android:buttonStyleToggle">@style/TogglePinItTheme</item>
+        <item name="android:listViewStyle">@style/ListViewPinItTheme</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewPinItTheme.White</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItemPinItTheme</item>
+
+        <item name="actionBarItemBackground">@drawable/selectable_background_pinitstyle</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Pinitstyle</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Pinitstyle</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Pinitstyle</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Pinitstyle</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Pinitstyle</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_pinitstyle</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_pinitstyle</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Pinitstyle</item>
+        <item name="actionBarWidgetTheme">@style/Theme.Pinitstyle.Widget</item>
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+        <item name="android:alertDialogTheme">@style/AlertDialog.Pinitstyle</item>
+
+ </style>
+
+    <style name="AlertDialog.Pinitstyle" parent="@style/Theme_Holo_Dialog_Alert">
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Pinitstyle</item>
+    </style>
+
+    <style name="DialogWindowTitle.Pinitstyle" parent="@style/DialogWindowTitle_Holo">
+        <item name="android:textAppearance">@style/TextAppearance.DialogWindowTitle.Pinitstyle</item>
+    </style>
+
+    <style name="TextAppearance.DialogWindowTitle.Pinitstyle" parent="@android:style/TextAppearance.Holo.DialogWindowTitle">
+        <item name="android:textColor">@color/dark_green</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="Theme_Holo_Dialog_Alert" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle_Holo</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+
+    <style name="DialogWindowTitle_Holo">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.DialogWindowTitle</item>
+    </style>
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+
+    <style name="EditTextPinItTheme" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/pinittheme_edit_text_holo_light</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="AutoCompleteTextViewPinItTheme" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/pinittheme_list_selector_holo_light</item>
+        <item name="android:background">@drawable/pinittheme_edit_text_holo_light</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="CheckBoxPinItTheme" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/pinittheme_btn_check_holo_light</item>
+    </style>
+
+    <style name="RadioButtonPinItTheme" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/pinittheme_btn_radio_holo_light</item>
+    </style>
+
+    <style name="ButtonPinItTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/pinittheme_btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ImageButtonPinItTheme" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/image_button_list_item</item>
+    </style>
+
+    <style name="SpinnerPinItTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/pinittheme_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/pinittheme_list_selector_holo_light</item>
+    </style>
+
+    <style name="SpinnerDropDownItemPinItTheme" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/pinittheme_btn_radio_holo_light</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TabPinItTheme">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:background">@drawable/pinittheme_tab_indicator_holo</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+
+    <style name="TabTextPinItTheme">
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <!-- v14 <item name="android:textAllCaps">true</item> -->
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxWidth">180dip</item>
+    </style>
+
+    <style name="ProgressBarPinItTheme" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/pinittheme_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/pinittheme_progress_indeterminate_horizontal_holo_light</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="SeekBarPinItTheme" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/pinittheme_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/pinittheme_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/pinittheme_scrubber_control_selector_holo_light</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+    <style name="RatingBarPinItTheme" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/pinittheme_ratingbar_full_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/pinittheme_ratingbar_full_holo_light</item>
+    </style>
+
+    <style name="RatingBarBigPinItTheme" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/pinittheme_ratingbar_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/pinittheme_ratingbar_holo_light</item>
+        <item name="android:minHeight">35dip</item>
+        <item name="android:maxHeight">35dip</item>
+    </style>
+
+    <style name="RatingBarSmallPinItTheme" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/pinittheme_ratingbar_small_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/pinittheme_ratingbar_small_holo_light</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="TogglePinItTheme" parent="android:Widget.Button.Toggle">
+        <item name="android:background">@drawable/pinittheme_btn_toggle_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="ListViewPinItTheme" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/pinittheme_list_selector_holo_light</item>
+    </style>
+
+    <style name="ListViewPinItTheme.White" parent="android:Widget.ListView.White">
+        <item name="android:listSelector">@drawable/pinittheme_list_selector_holo_light</item>
+    </style>
+
+    <style name="SpinnerItemPinItTheme" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="ActionBar.Solid.Pinitstyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_pinitstyle</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_pinitstyle</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_pinitstyle</item>
+        <item name="progressBarStyle">@style/ProgressBar.Pinitstyle</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Pinitstyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_pinitstyle</item>
+        <item name="progressBarStyle">@style/ProgressBar.Pinitstyle</item>
+    </style>
+
+    <style name="PopupMenu.Pinitstyle" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_pinitstyle</item>
+    </style>
+
+    <style name="DropDownListView.Pinitstyle" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_pinitstyle</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Pinitstyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_pinitstyle</item>
+    </style>
+
+    <style name="DropDownNav.Pinitstyle" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_pinitstyle</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_pinitstyle</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_pinitstyle</item>
+    </style>
+
+    <style name="ProgressBar.Pinitstyle" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_pinitstyle</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Pinitstyle" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_pinitstyle</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Pinitstyle.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Pinitstyle</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Pinitstyle</item>
+    </style>
+
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+    </style>
+
+    <style name="MaterialDialogSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+    <style name="FilterDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/FilterDialogAnimation</item>
+    </style>
+
+    <style name="FilterDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/filter_show</item>
+        <item name="android:windowExitAnimation">@anim/filter_hide</item>
+    </style>
+
+</resources>
